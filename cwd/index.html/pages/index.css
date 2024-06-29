@@ -1,0 +1,321 @@
+.index .image-1 {
+  background: url('../assets/images/image_1.png') 50% / cover no-repeat;
+  width: 8.3rem;
+  height: 7.4rem;
+}
+.index .location {
+  margin: 0.7rem 3rem 0.7rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #6D470D;
+}
+.index .menu {
+  margin: 0.7rem 3rem 0.7rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #6D470D;
+}
+.index .contact-us {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #EDE3D4;
+}
+.index .button {
+  box-shadow: var(--button-shadow, 0rem 0.1rem 0.1rem 0rem rgba(0, 0, 0, 0.05));
+  border-radius: 0.5rem;
+  background: #6D470D;
+  display: flex;
+  padding: 0.9rem 0rem 0.9rem 0;
+  width: 8.9rem;
+  box-sizing: border-box;
+}
+.index .items {
+  margin: 2.1rem 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.index .navigation {
+  background: #EDE3D4;
+  margin-bottom: 2.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.4rem 5rem 1.4rem 2.5rem;
+  width: 90rem;
+  box-sizing: border-box;
+}
+.index .kates-cafe {
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inknut Antiqua';
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: -0.1rem;
+  color: #6D470D;
+}
+.index .aplace-where-you-can-feel-at-home {
+  margin: 0 2.3rem;
+  overflow-wrap: break-word;
+  font-family: var(--subheading-font-family, 'Inter');
+  font-weight: var(--subheading-font-weight, 400);
+  font-size: var(--subheading-font-size, 1.5rem);
+  line-height: var(--subheading-line-height, 1.5);
+  color: #828282;
+}
+.index .frame-1321316142 {
+  margin: 0 0.1rem 6.8rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.index .image-2 {
+  background: url('../assets/images/image_2.png') 50% / cover no-repeat;
+  margin: 0 5rem 3.5rem 5rem;
+  width: 80rem;
+  height: 45.5rem;
+}
+.index .hi-housemates-weve-missed-you-already-our-caf-hours-is-from-to-11-am-11-pm-plan-your-lunchbrunch-with-us {
+  overflow-wrap: break-word;
+  font-family: var(--subheading-font-family, 'Inter');
+  font-weight: var(--subheading-font-weight, 400);
+  font-size: var(--subheading-font-size, 1.5rem);
+  line-height: var(--subheading-line-height, 1.5);
+  color: rgba(109, 71, 13, 0.66);
+}
+.index .heading {
+  margin: 0 5.4rem 4.6rem 5.4rem;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.index .cafes-best {
+  margin: 0 4.7rem 9.6rem 0;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Inknut Antiqua';
+  font-weight: 700;
+  font-size: 1.9rem;
+  letter-spacing: 0rem;
+  color: #6D470D;
+}
+.index .food {
+  background: url('../assets/images/food_1.png') 50% / cover no-repeat;
+  width: 14.6rem;
+  height: 14.7rem;
+}
+.index .customer-quote {
+  box-shadow: -0.3rem 0.5rem 1.3rem 0rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+  border: 0.1rem solid #F7F7F7;
+  background: #FFFFFF;
+  margin-right: 2rem;
+  display: flex;
+  padding: 1.9rem 0.5rem 2.4rem 0;
+  width: 19.1rem;
+  height: 19.2rem;
+  box-sizing: border-box;
+}
+.index .food-1 {
+  background: url('../assets/images/food.png') 50% / cover no-repeat;
+  width: 15.4rem;
+  height: 15.1rem;
+}
+.index .customer-quote-1 {
+  box-shadow: -0.3rem 0.5rem 1.3rem 0rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+  border: 0.1rem solid #F7F7F7;
+  background: #FFFFFF;
+  margin-right: 2rem;
+  display: flex;
+  padding: 1.9rem 1.7rem 2.1rem 1.7rem;
+  width: 19.1rem;
+  height: 19.2rem;
+  box-sizing: border-box;
+}
+.index .image-4 {
+  background: url('../assets/images/image_4.png') 50% / cover no-repeat;
+  width: 15.8rem;
+  height: 14.9rem;
+}
+.index .customer-quote-2 {
+  box-shadow: -0.3rem 0.5rem 1.3rem 0rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+  border: 0.1rem solid #F7F7F7;
+  background: #FFFFFF;
+  display: flex;
+  padding: 1.9rem 1.3rem 2.3rem 1.3rem;
+  width: 19.1rem;
+  height: 19.2rem;
+  box-sizing: border-box;
+}
+.index .cards {
+  margin: 0 5rem 2.1rem 7.7rem;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.index .divider {
+  background: #E6E6E6;
+  margin: 0 3.8rem 2.3rem 1.4rem;
+  width: 80rem;
+  height: 0.1rem;
+}
+.index .kates-cafe-1 {
+  margin-right: 2.4rem;
+  width: 39rem;
+  overflow-wrap: break-word;
+  font-family: 'Inknut Antiqua';
+  font-weight: 700;
+  font-size: 1.9rem;
+  letter-spacing: 0rem;
+  color: #6D470D;
+}
+.index .in-partnership-with {
+  margin: 1.4rem 0 1rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #6D470D;
+}
+.index .container-2 {
+  margin: 0 5.4rem 0.3rem 5.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 55.4rem;
+  box-sizing: border-box;
+}
+.index .icon-1 {
+  width: 1.3rem;
+  height: 1.2rem;
+}
+.index .icon {
+  margin: 0.1rem 0.7rem 0.1rem 0;
+  display: flex;
+  width: 1.3rem;
+  height: 1.2rem;
+  box-sizing: border-box;
+}
+.index .httpswww-facebook-comkatescafehouse {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration-line: underline;
+  line-height: 1.5;
+  color: #6D470D;
+}
+.index .container-1 {
+  margin-bottom: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.index .icon-2 {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.index .social-icons {
+  margin: 0.3rem 0.8rem 0 0;
+  display: flex;
+  width: 1.3rem;
+  height: 1.3rem;
+  box-sizing: border-box;
+}
+.index .httpswww-instagram-comkatescafehouse {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration-line: underline;
+  line-height: 1.5;
+  color: #6D470D;
+}
+.index .container-5 {
+  margin: 0.3rem 0 4.4rem 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.index .entice-by-kates {
+  position: relative;
+  margin: 1.4rem 2.7rem 0 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inknut Antiqua';
+  font-weight: 700;
+  font-size: 1.9rem;
+  letter-spacing: 0rem;
+  color: #6D470D;
+}
+.index .qrcode-1135003989-aca-85-d-6595-af-2-b-08-f-9-b-45646-bfd-7-b-261 {
+  background: url('../assets/images/qrcode_1135003989_aca_85_d_6595_af_2_b_08_f_9_b_45646_bfd_7_b_261.png') 50% / cover no-repeat;
+  margin-bottom: 0.3rem;
+  width: 6rem;
+  height: 5.9rem;
+}
+.index .container {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.index .container-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85.2rem;
+  box-sizing: border-box;
+}
+.index .container-4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.index .entice-logo {
+  background: url('../assets/images/entice_logo.png') 50% / cover no-repeat;
+  position: absolute;
+  top: 2.4rem;
+  right: 13.6rem;
+  width: 8.7rem;
+  height: 8.9rem;
+}
+.index .navigation-footer {
+  background: rgba(228, 213, 190, 0.66);
+  position: relative;
+  display: flex;
+  padding: 0.1rem 1.2rem 0.9rem 3.6rem;
+  box-sizing: border-box;
+}
+.index {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width: 90rem;
+  box-sizing: border-box;
+}
+

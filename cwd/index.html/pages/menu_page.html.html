@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="menu_page.css" />
+    <!-- Import Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- Import Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .btn-brown {
+            background-color: #8B4513 !important; /* Brown color for FAB */
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-page">
+        <div class="navigation">
+            <a href="index.html.html" class="home-button">
+                <div class="image-1"></div>
+            </a>
+            <div class="items-3">
+                <div class="location">LOCATION</div>
+                <div class="menu">MENU</div>
+                <div class="button">
+                    <span class="contact-us">Contact Us!</span>
+                </div>
+            </div>
+        </div>
+        <div class="container-1">
+            <div class="cafe-smenu"></div>
+            <div class="container-3">
+                <div class="menu-1"></div>
+                <div class="menu-3"></div>
+            </div>
+            <div class="container">
+                <div class="menu-2"></div>
+                <div class="menu-4"></div>
+            </div>
+        </div>
+        <div class="navigation-footer">
+            <div class="divider"></div>
+            <div class="container-4">
+                <div class="container-2">
+                    <div class="site-name"></div>
+                    <div class="social-icons">
+                        <div class="buttons-icon">
+                            <img class="icon" src="../assets/vectors/icon_12_x2.svg" />
+                        </div>
+                        <div class="buttons-icon-1">
+                            <img class="icon-1" src="../assets/vectors/icon_11_x2.svg" />
+                        </div>
+                        <div class="buttons-icon-2">
+                            <img class="icon-2" src="../assets/vectors/icon_13_x2.svg" />
+                        </div>
+                        <div class="buttons-icon-3">
+                            <img class="icon-3" src="../assets/vectors/icon_7_x2.svg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="topic"></div>
+                </div>
+                <div class="items-1">
+                    <div class="fixed-action-btn">
+                        <a class="btn-floating btn-large btn-brown">
+                            <i class="large material-icons">mode_edit</i>
+                        </a>
+                        <ul>
+                            <li><a href="https://www.facebook.com/katescafehouse" class="btn-floating btn-large btn-brown"><i class="material-icons">facebook</i></a></li>
+                            <li><a href="https://www.instagram.com/katescafehouse_/" class="btn-floating btn-large btn-brown"><i class="material-icons">info</i></a></li>
+                            <li><a href="team.html" class="btn-floating btn-large btn-brown"><i class="material-icons">group</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Import jQuery before Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.fixed-action-btn').floatingActionButton();
+        });
+    </script>
+</body>
+</html>

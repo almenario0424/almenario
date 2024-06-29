@@ -1,0 +1,460 @@
+.location-page .image-1 {
+  background: url('../assets/images/image_1.png') 50% / cover no-repeat;
+  width: 5.8rem;
+  height: 5.1rem;
+}
+.location-page .location {
+  margin: 0.7rem 3rem 0.7rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-decoration-line: underline;
+  line-height: 1.5;
+  color: #6D470D;
+}
+.location-page .menu {
+  margin: 0.7rem 3rem 0.7rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #6D470D;
+}
+.location-page .contact-us {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #EDE3D4;
+}
+.location-page .button-1 {
+  box-shadow: var(--button-shadow, 0rem 0.1rem 0.1rem 0rem rgba(0, 0, 0, 0.05));
+  border-radius: 0.5rem;
+  background: #6D470D;
+  display: flex;
+  padding: 0.9rem 0rem 0.9rem 0;
+  width: 8.9rem;
+  box-sizing: border-box;
+}
+.location-page .items-3 {
+  margin: 0.9rem 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.location-page .navigation {
+  background: #EDE3D4;
+  margin-bottom: 1.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.4rem 5rem 1.4rem 2.5rem;
+  width: 103.1rem;
+  box-sizing: border-box;
+}
+.location-page .we-are-located-at {
+  margin-bottom: 1.4rem;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inknut Antiqua';
+  font-weight: 700;
+  font-size: 1.9rem;
+  letter-spacing: 0rem;
+  color: #6D470D;
+}
+.location-page .map {
+  background: url('../assets/images/map_1.png') 50% / cover no-repeat;
+  margin: 0 0rem 3rem 0;
+  width: 31rem;
+  height: 26.9rem;
+}
+.location-page .block-8-lot-4-bella-subdivision-brgy-sala-4025-cabuyao-laguna {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #6D470D;
+}
+.location-page .customer-quote {
+  box-shadow: -0.3rem 0.5rem 1.3rem 0rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+  border: 0.1rem solid #F7F7F7;
+  background: #FFFFFF;
+  margin-left: 3.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.9rem 1.8rem 3.6rem 1.9rem;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.location-page .container-1 {
+  margin: 0 2.3rem 8.4rem 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.location-page .map-1 {
+  background: url('../assets/images/map_2.png') 50% / cover no-repeat;
+  margin-bottom: 0.7rem;
+  width: 21.4rem;
+  height: 16.5rem;
+}
+.location-page .nearest-landmark-total-sala-city-of-cabuyao {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #6D470D;
+}
+.location-page .nearest-land-mark {
+  box-shadow: -0.3rem 0.5rem 1.3rem 0rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+  border: 0.1rem solid #F7F7F7;
+  background: #FFFFFF;
+  margin-bottom: 6.4rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.9rem 1.3rem 0.6rem 1.4rem;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.location-page .map-2 {
+  box-shadow: 0rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+  background: url('../assets/images/map.png') 50% / cover no-repeat;
+  margin-bottom: 0.7rem;
+  width: 21.4rem;
+  height: 16.5rem;
+}
+.location-page .where-to-go-after {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #6D470D;
+}
+.location-page .where-to-go {
+  box-shadow: -0.3rem 0.5rem 1.3rem 0rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+  border: 0.1rem solid #F7F7F7;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 1.9rem 1.3rem 0.6rem 1.4rem;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.location-page .container {
+  margin: 3.2rem 3.6rem 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.location-page .map-3 {
+  box-shadow: 0rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+  background: url('../assets/images/map_3.png') 50% / cover no-repeat;
+  margin-bottom: 0.7rem;
+  width: 21.4rem;
+  height: 16.5rem;
+}
+.location-page .exact-location {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #6D470D;
+}
+.location-page .exat-location {
+  box-shadow: -0.3rem 0.5rem 1.3rem 0rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+  border: 0.1rem solid #F7F7F7;
+  background: #FFFFFF;
+  margin: 0 2.1rem 9.9rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 1.9rem 1.3rem 0.6rem 1.4rem;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.location-page .get-directions {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #EDE3D4;
+}
+.location-page .button {
+  box-shadow: var(--button-shadow, 0rem 0.1rem 0.1rem 0rem rgba(0, 0, 0, 0.05));
+  border-radius: 0.5rem;
+  background: #6D470D;
+  display: flex;
+  padding: 0.6rem 1rem;
+  box-sizing: border-box;
+}
+.location-page .container-5 {
+  margin: 17.1rem 0 1.3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.location-page .container-4 {
+  margin: 0 3.4rem 2.6rem 5.4rem;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.location-page .divider {
+  background: #E6E6E6;
+  margin-bottom: 2.9rem;
+  align-self: flex-start;
+  width: 80rem;
+  height: 0.1rem;
+}
+.location-page .site-name {
+  margin-bottom: 6.1rem;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--subheading-font-family, 'Inter');
+  font-weight: var(--subheading-font-weight, 400);
+  font-size: var(--subheading-font-size, 1.5rem);
+  line-height: var(--subheading-line-height, 1.5);
+  color: #000000;
+}
+.location-page .icon {
+  width: 1.3rem;
+  height: 1.2rem;
+}
+.location-page .buttons-icon {
+  border-radius: 0.3rem;
+  margin: 0rem 0;
+  display: flex;
+  width: 1.3rem;
+  height: 1.2rem;
+  box-sizing: border-box;
+}
+.location-page .icon-1 {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+.location-page .buttons-icon-1 {
+  border-radius: 0.3rem;
+  margin: 0.1rem 0;
+  display: flex;
+  width: 1.1rem;
+  height: 1.1rem;
+  box-sizing: border-box;
+}
+.location-page .icon-2 {
+  width: 1.3rem;
+  height: 0.9rem;
+}
+.location-page .buttons-icon-2 {
+  border-radius: 0.3rem;
+  margin: 0.2rem 0;
+  display: flex;
+  width: 1.3rem;
+  height: 0.9rem;
+  box-sizing: border-box;
+}
+.location-page .icon-3 {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.location-page .buttons-icon-3 {
+  border-radius: 0.3rem;
+  display: flex;
+  width: 1.3rem;
+  height: 1.3rem;
+  box-sizing: border-box;
+}
+.location-page .social-icons {
+  margin-left: 0.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 10.3rem;
+  box-sizing: border-box;
+}
+.location-page .container-2 {
+  margin: 0.3rem 0 0.6rem 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.location-page .topic {
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 1rem);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #000000;
+}
+.location-page .page {
+  margin: 0 0.2rem 1.5rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 1rem);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.location-page .page-1 {
+  margin: 0 0.2rem 1.5rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 1rem);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.location-page .page-2 {
+  margin-right: 0.2rem;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 1rem);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.location-page .items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.location-page .topic-1 {
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 1rem);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #000000;
+}
+.location-page .page-3 {
+  margin: 0 0.2rem 1.5rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 1rem);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.location-page .page-4 {
+  margin: 0 0.2rem 1.5rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 1rem);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.location-page .page-5 {
+  margin-right: 0.2rem;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 1rem);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.location-page .items-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.location-page .topic-2 {
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 1rem);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #000000;
+}
+.location-page .page-6 {
+  margin: 0 0.2rem 1.5rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 1rem);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.location-page .page-7 {
+  margin: 0 0.2rem 1.5rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 1rem);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.location-page .page-8 {
+  margin-right: 0.2rem;
+  overflow-wrap: break-word;
+  font-family: var(--small-text-font-family, 'Inter');
+  font-weight: var(--small-text-font-weight, 500);
+  font-size: var(--small-text-font-size, 1rem);
+  line-height: var(--small-text-line-height, 1.5);
+  color: #454545;
+}
+.location-page .items-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.location-page .container-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 84rem;
+  box-sizing: border-box;
+}
+.location-page .navigation-footer {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 0.1rem 0 3rem 5rem;
+  width: 103.1rem;
+  box-sizing: border-box;
+}
+.location-page {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 103.1rem;
+  box-sizing: border-box;
+}

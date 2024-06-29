@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Location Page</title>
+  <link rel="stylesheet" href="team.css" />
+  <!-- Include Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    .slider, .slides, .slider .slides li, .slider .slides li img {
+      height: 100%;
+    }
+    .slider .slides li img {
+      width: 50%;
+      object-fit: cover;
+    }
+    .caption {
+      position: absolute;
+      bottom: 20%;
+      left: 0;
+      right: 0;
+      text-align: right;
+      color: white;
+    }
+    .team-header {
+      text-align: center;
+      margin: 15px 0;
+      font-size: 2.5em;
+      color: #333;
+    }
+    .navigation {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      z-index: 1000;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navigation .home-button {
+      display: inline-block;
+    }
+    .navigation .items-3 {
+      display: flex;
+      justify-content: space-around;
+      flex-grow: 1;
+      max-width: 600px;
+    }
+    .navigation .items-3 > div {
+      margin: 0 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="location-page">
+    <div class="navigation">
+      <a href="index.html.html" class="home-button">
+        <div class="image-1"></div>
+      </a>
+      <div class="items-3">
+        <div class="location">LOCATION</div>
+        <div class="menu">MENU</div>
+        <div class="button-1">
+          <span class="contact-us">Contact Us!</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Team Header -->
+      <div class="team-header">This is our Team</div>
+      
+      <!-- Slider Section -->
+      <div class="slider fullscreen">
+        <ul class="slides">
+          <li>
+            <img class="materialboxed" src="me.jpg" alt="Leader Photo">
+            <div class="caption right-align">
+              <h3>Rolly S. Almenario</h3>
+              <h4>THE CEO</h4>
+              <h5 class="light grey-text text-lighten-3">"Brewing smiles, one day at a time."</h5>
+            </div>
+          </li>
+          <li>
+            <img class="materialboxed" src="mikay.jpg" alt="Member 1 Photo">
+            <div class="caption right-align">
+              <h3>Rio Myca Alimagno</h3>
+              <h4>THE COO</h4>
+              <h5 class="light grey-text text-lighten-3">"Embrace warmth and happiness in every moment."</h5>
+            </div>
+          </li>
+          <li>
+            <img class="materialboxed" src="jazz.jpg" alt="Member 2 Photo">
+            <div class="caption right-align">
+              <h3>Jazzbill Montealegre Silverio</h3>
+              <h4>THE MANAGER</h4>
+              <h5 class="light grey-text text-lighten-3">"Crafting a life filled with meaningful moments."</h5>
+            </div>
+          </li>
+          <li>
+            <img class="materialboxed" src="Alma.jpg" alt="Member 3 Photo">
+            <div class="caption right-align">
+              <h3>Alma Balisoro Boncacas</h3>
+              <H4>THE SECRETARY</H4>
+              <h5 class="light grey-text text-lighten-3">"Every day tells a story worth sharing."</h5>
+            </div>
+          </li>
+          <li>
+            <img class="materialboxed" src="papa.jpg" alt="Member 4 Photo">
+            <div class="caption right-align">
+              <h3>Grant Kacey Papa</h3>
+              <h4>THE EMPLOYEE</h4>
+              <h5 class="light grey-text text-lighten-3">"Sip, savor, and cherish each moment."</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Include Materialize JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var sliderElems = document.querySelectorAll('.slider');
+      var sliderInstances = M.Slider.init(sliderElems, {
+        indicators: true, // Add indicators to the bottom of the slider
+        height: window.innerHeight, // Adjust height of the slider to fullscreen
+        interval: 6000    // Set the interval for slide change
+      });
+
+      var materialboxElems = document.querySelectorAll('.materialboxed');
+      var materialboxInstances = M.Materialbox.init(materialboxElems);
+    });
+
+    // Or with jQuery
+    $(document).ready(function(){
+      $('.slider').slider({
+        indicators: true,
+        height: window.innerHeight,
+        interval: 6000
+      });
+      
+      $('.materialboxed').materialbox();
+    });
+  </script>
+</body>
+</html>
